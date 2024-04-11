@@ -44,7 +44,7 @@ export default function HomePage(){
       ];
     
       return (
-        <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
+        <div className="gap-6 grid grid-cols-2 sm:grid-cols-4 max-w-1280 mx-auto px-8 py-4 text-center">
           {list.map((item, index) => (
             <Card shadow="sm" key={index} isPressable onPress={() => console.log("item pressed")}>
               <CardBody className="overflow-visible p-0">
@@ -57,8 +57,8 @@ export default function HomePage(){
                   src={item.img}
                 />
               </CardBody>
-              <CardFooter className="text-small justify-between">
-                <b>{item.title}</b>
+              <CardFooter className="text-small justify-between text-center">
+                <b className="text-center">{item.title}</b>
               </CardFooter>
             </Card>
           ))}

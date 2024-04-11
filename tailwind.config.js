@@ -9,11 +9,7 @@ export default {
     ],
     theme: {
         extend: {},
-        colors: {
-            primary: 'red',
-            secondary: '#ecc94b',
 
-        }
     },
     darkMode: "class",
     plugins: [nextui()]

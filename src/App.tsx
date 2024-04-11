@@ -2,6 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import NavBar from './components/NavBar'
 import HomePage from './views/HomePage'
 
 function App() {
@@ -9,7 +10,10 @@ function App() {
 
   return (
     <>
+
+    <NavBar></NavBar>
     <HomePage></HomePage>
+    
     </>
     
     // <>
