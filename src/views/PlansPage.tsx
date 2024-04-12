@@ -5,6 +5,7 @@ import { TelevisionIcon } from "../icons/TelevisionIcon";
 import {Accordion, AccordionItem} from "@nextui-org/react";
 import {Button} from "@nextui-org/react";
 export default function PlansPage(){
+  const classesIcon = 'place-self-center fill-primary h-10 w-10'
   const defaultContent =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     return (
@@ -20,7 +21,7 @@ export default function PlansPage(){
       <div className=" grid grid-cols-2">
         <div className="grid">
         <h4 className="text-small ">Internet</h4>
-         <InternetIcon className="place-self-center fill-primary"/>
+         <InternetIcon className={classesIcon}/>
         </div>
         <div className="grid">
         <div>100 MB </div>
@@ -31,7 +32,7 @@ export default function PlansPage(){
       <div className=" grid grid-cols-2">
         <div className="grid">
         <h4 className="text-small ">Television</h4>
-         <TelevisionIcon className="place-self-center fill-primary"/>
+         <TelevisionIcon className={classesIcon}/>
         </div>
         <div className="grid">
         <div>Canales premium </div>
@@ -42,7 +43,7 @@ export default function PlansPage(){
       <div className=" grid grid-cols-2">
         <div className="grid">
         <h4 className="text-small ">Telefono</h4>
-         <TelefonoIcon className="place-self-center fill-primary"/>
+         <TelefonoIcon className={classesIcon}/>
         </div>
         <div className="grid">
         <div>Ilimitado </div>
