@@ -12,7 +12,6 @@ import {
   Dropdown,
   DropdownMenu,
   DropdownItem,
-  Chip,
   User,
   Selection,
   ChipProps,
@@ -20,16 +19,9 @@ import {
 } from "@nextui-org/react";
 import {PlusIcon} from "../icons/PlusIcon";
 import {VerticalDotsIcon} from "../icons/VerticalDots";
-import {ChevronDownIcon} from "../icons/ChevronDownIcon";
 import {SearchIcon} from "../icons/SearchIcon";
 import {columns, users, statusOptions} from "./data";
-import {capitalize} from "../utils";
 
-const statusColorMap: Record<string, ChipProps["color"]> = {
-  active: "success",
-  paused: "danger",
-  vacation: "warning",
-};
 
 const INITIAL_VISIBLE_COLUMNS = ["name", "role", "status", "actions"];
 
