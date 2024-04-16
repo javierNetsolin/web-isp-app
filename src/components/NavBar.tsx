@@ -24,7 +24,7 @@ export default function NavBar() {
           />
           <NavbarBrand>
             <LightningLogo/>
-            <p className=" ml-2 font-bold text-inherit">ISP</p>
+            <p className=" ml-2 font-bold text-inherit">SERVI-TEC</p>
           </NavbarBrand>
         </NavbarContent>
   

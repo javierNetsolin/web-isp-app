@@ -4,6 +4,7 @@ import { Route, Routes, useNavigate} from 'react-router-dom'
 import NavBar from './components/NavBar'
 import HomePage from './views/HomePage'
 import PlansPage from './views/PlansPage'
+import OtPage from './views/OtPage'
 
 function App() {
   const navigate = useNavigate();
@@ -15,6 +16,8 @@ function App() {
     <NavBar></NavBar>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/ot" element={<OtPage />} />
+        
         <Route path="/planes" element={<PlansPage />} />
         {/* ... */}
       </Routes>
