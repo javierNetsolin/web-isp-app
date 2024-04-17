@@ -6,6 +6,7 @@ import HomePage from './views/HomePage'
 import PlansPage from './views/PlansPage'
 import OtPage from './views/OtPage'
 import OtsTablePage from './views/OtsTablePage'
+import QuotePage from './views/QuotePage'
 
 function App() {
   const navigate = useNavigate();
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/ot" element={<OtPage />} />
         <Route path="/ots-table" element={<OtsTablePage />} />
+        <Route path="/quote" element={<QuotePage />} />
         
         <Route path="/planes" element={<PlansPage />} />
         {/* ... */}
