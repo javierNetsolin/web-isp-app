@@ -5,7 +5,12 @@ interface VerticalDotsIconProps {
   className?: string;
   // Other props...
 }
-export const VerticalDotsIcon:React.FC<VerticalDotsIconProps> = ({size = 24, width, height, ...props}) => (
+export const VerticalDotsIcon: React.FC<VerticalDotsIconProps> = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}) => (
   <svg
     aria-hidden="true"
     fill="none"
