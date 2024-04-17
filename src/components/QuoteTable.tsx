@@ -78,7 +78,8 @@ export default function QuoteTable (){
       className="max-w-l mt-4"
     />
     <div className="mt-4">
-                  <Button fullWidth color="primary">
+                  {/* <Button fullWidth className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg" color="primary"> */}
+                  <Button fullWidth className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg" >
                     Enviar cotizacion
                   </Button>
                 </div>
