@@ -109,3 +109,61 @@ export const searchOpts = [
     // description: 'The largest land animal',
   },
 ];
+
+export const SearchRows = [
+  {
+    //key number of ott for react updte
+    key: 'MT_05',
+    ot: 'MT_05',
+    id: 'D234',
+    tipo: 'Bus',
+    fecha: '22/04/2024',
+  },
+  {
+    key: 'MT_04',
+    ot: 'MT_04',
+    id: 'S2345',
+    tipo: 'Silla',
+    fecha: '22/04/2024',
+  },
+  {
+    key: 'RE_07',
+    ot: 'RE_07',
+    id: 'D234',
+    tipo: 'Bus',
+    fecha: '20/04/2024',
+  },
+  {
+    key: 'RT_06',
+    ot: 'RT_06',
+    id: 'F521',
+    tipo: 'Bus',
+    fecha: '20/04/2024',
+  },
+  {
+    key: 'MT_03',
+    ot: 'MT_03',
+    id: 'D234',
+    tipo: 'Bus',
+    fecha: '19/04/2024',
+  },
+];
+
+export const SearchColumns = [
+  {
+    key: 'ot',
+    label: 'OT',
+  },
+  {
+    key: 'fecha',
+    label: 'FECHA',
+  },
+  {
+    key: 'id',
+    label: 'ID/SERIAL',
+  },
+  {
+    key: 'tipo',
+    label: 'TIPO',
+  },
+];

@@ -8,9 +8,9 @@ import {
   AccordionItem,
   Select,
   SelectItem,
-  DatePicker,
+  // DatePicker,
 } from '@nextui-org/react';
-import { DateRangePicker } from '@nextui-org/date-picker';
+// import { DatePicker } from '@nextui-org/date-picker';
 
 import { activos, empresas, searchOpts } from '../mock/data';
 export default function SearchForm() {
@@ -81,7 +81,7 @@ export default function SearchForm() {
                 AJUSTE JUEGO DE MANTAS
               </AutocompleteItem>
             </Autocomplete>
-            <DateRangePicker label="Stay duration" className="max-w-xs" />
+            {/* <DatePicker label="Birth date" className="max-w-[284px]" /> */}
           </AccordionItem>
         </Accordion>
 

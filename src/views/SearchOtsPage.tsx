@@ -1,5 +1,6 @@
 import { Tabs, Tab } from '@nextui-org/react';
 import SearchForm from '../components/SearchForm';
+import SearchTable from '../components/SearchTable';
 export default function SearchOtsPage() {
   return (
     <>
@@ -16,7 +17,7 @@ export default function SearchOtsPage() {
           <SearchForm />
         </Tab>
         <Tab key="files" title="OTs">
-          {/* <SearchTable /> */}
+          <SearchTable />
         </Tab>
       </Tabs>
     </>
