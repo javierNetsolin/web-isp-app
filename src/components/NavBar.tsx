@@ -15,14 +15,20 @@ import { LightningLogo } from './LightningLogo';
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
+  // const menuItems = [
+  //   'Inicio',
+  //   'Planes',
+  //   'Pagos en Linea',
+  //   'Puntos de atención',
+  //   'Chat-bot',
+  //   'Centro de Ayuda/Soporte',
+  //   'Tramites',
+  // ];
   const menuItems = [
-    'Inicio',
-    'Planes',
-    'Pagos en Linea',
-    'Puntos de atención',
-    'Chat-bot',
-    'Centro de Ayuda/Soporte',
-    'Tramites',
+    'Ots',
+    'Cotizaciones',
+    'Peril de usuario',
+    'Cerrar sessión',
   ];
 
   return (
@@ -38,7 +44,7 @@ export default function NavBar() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      {/* <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem isActive>
           <Link color="foreground" href="#">
             Features
@@ -54,13 +60,13 @@ export default function NavBar() {
             Integrations
           </Link>
         </NavbarItem>
-      </NavbarContent>
+      </NavbarContent> */}
       <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
+        {/* <NavbarItem className="hidden lg:flex">
           <Link href="#">Login</Link>
-        </NavbarItem>
+        </NavbarItem> */}
         <NavbarItem>
-          <Button as={Link} color="primary" href="/planes" variant="flat">
+          <Button as={Link} color="primary" href="/" variant="flat">
             Ayuda
           </Button>
         </NavbarItem>

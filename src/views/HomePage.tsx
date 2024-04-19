@@ -61,7 +61,7 @@ export default function HomePage() {
 
   return (
     <>
-      <h1 className="text-large font-medium text-center mb-5">Bienvenido</h1>
+      <h1 className="text-large font-medium text-center mb-4">Bienvenido</h1>
       <div className="gap-6 grid grid-cols-2 sm:grid-cols-4 max-w-1280 mx-auto px-8 py-4 text-center">
         {list.map((item, index) => (
           <Card

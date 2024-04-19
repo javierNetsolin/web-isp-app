@@ -45,6 +45,7 @@ export default function OtsTablePage() {
 
   return (
     <>
+      <h1 className="text-large font-medium text-center mb-5">OTs</h1>
       <Table
         isHeaderSticky
         aria-label="Example table with client side sorting"

@@ -58,3 +58,54 @@ export const animals = [
     description: 'A large semiaquatic reptile',
   },
 ];
+export const empresas = [
+  {
+    label: 'Transmilenio',
+    value: 'transmilenio',
+    // description: 'Empresa de servicio e transporte',
+  },
+  {
+    label: 'Metrobus',
+    value: 'metrobus',
+    // description: 'Empresa de servicio e transporte',
+  },
+  {
+    label: 'Sip',
+    value: 'sip',
+    // description: 'The largest land animal',
+  },
+];
+export const activos = [
+  {
+    label: 'Bus-D234',
+    value: 'd234',
+    // description: 'Empresa de servicio e transporte',
+  },
+  {
+    label: 'Silla-S2345',
+    value: 's2345',
+    // description: 'Empresa de servicio e transporte',
+  },
+  {
+    label: 'Bus-F521',
+    value: 'f521',
+    // description: 'The largest land animal',
+  },
+];
+export const searchOpts = [
+  {
+    label: 'OTs en garantia',
+    value: 'garantia',
+    // description: 'Empresa de servicio e transporte',
+  },
+  {
+    label: 'OTs en Proceso',
+    value: 'proceso',
+    // description: 'Empresa de servicio e transporte',
+  },
+  {
+    label: 'Ots cerradas',
+    value: 'cerradas',
+    // description: 'The largest land animal',
+  },
+];
